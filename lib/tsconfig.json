@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ES6",
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"], // Include your source files
+  "exclude": ["node_modules", "dist", "examples"]
+}
