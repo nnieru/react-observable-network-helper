@@ -87,7 +87,7 @@ const postRequest = useObservableHttpClient(requestGetPost);
 
 ### Example Component
 
-Here's a simple example of how to use the reqyests in a React component:
+Here's a simple example of how to use the requests in a React component:
 
 ```tsx
 function App() {
