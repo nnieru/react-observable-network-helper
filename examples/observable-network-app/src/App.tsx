@@ -3,7 +3,7 @@ import {
   HttpMethod,
   RequestFactory,
   useObservableHttpClient,
-} from "test2-react-observable-network";
+} from "react-observable-network-helper";
 import { mapToPostModel, PostModel } from "./model/Posts/post.model";
 import { axiosConfig } from "./config/axiosconfig";
 import { mapToTodoModel, Todo } from "./model/Todos/todo.model";
@@ -11,7 +11,7 @@ import { mapToTodoModel, Todo } from "./model/Todos/todo.model";
 function App() {
   // request creation
   const requestGetPost = RequestFactory<PostModel[]>({
-    url: "/postss",
+    url: "/posts",
     mapper: (data) => mapToPostModel(data),
     httpMetod: HttpMethod.GET,
     config: axiosConfig,

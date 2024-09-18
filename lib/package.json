@@ -1,7 +1,7 @@
 {
-  "name": "test2-react-observable-network",
-  "version": "1.0.2",
-  "description": "",
+  "name": "react-observable-network-helper",
+  "version": "1.0.1",
+  "description": "a simple approach to manage network requests in React. This helper listens and emits state changes (loading, success, failure) for each network request, eliminating the need to create redundant states every time. By centralizing state management for network requests, this solution simplifies the network request code and reduces repetition.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
